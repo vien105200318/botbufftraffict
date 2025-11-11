@@ -1,0 +1,5 @@
+>python simulator_with_proxies.py --concurrent 25 --proxy-file proxies.txt --bot-ratio 0.15 --visits-min 4 --visits-max 10 --log traffic_log.csvs
+
+
+skip check proxy
+python simulator_with_proxies.py --proxy-file proxies.txt --skip-proxy-check
